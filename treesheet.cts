@@ -14,7 +14,3 @@
  *
  */
 
-@html academic-publications //apps.cloudstitch.io/academic/publications/index.html;
-@css relative(publications.css);
-@gsheet sheet http://cloudstitch.io/academic/publications/datasource/Pubs;
-body|*[widget="academic/publications"] :graft academic-publications|#pub-widget;
