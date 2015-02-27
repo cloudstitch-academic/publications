@@ -19,7 +19,7 @@
           | <a href="#" class="show-all" onClick="showAllPublications(); return false;">All Publications</a>
         </div>
         <ol connect="Pubs|rows">
-          <li class="paper" <li data-cts='this {"attribute": "data-selected"} :is Pubs|Pubs!col(Selected);'>              
+          <li class="paper" data-cts='this {"attribute": "data-selected"} :is Pubs|Pubs!col(Selected);'>              
               <a class="title" connect-href="Pubs|Pubs!col(PaperLink)" connect="Pubs|Pubs!col(Title)" show-if="Pubs|Pubs!col(PaperLink)" href="#" style="display:none;"></a>
               <div class="title" connect="Pubs|Pubs!col(Title)" hide-if="Pubs|Pubs!col(PaperLink)" style="display:none;"></div>
 
