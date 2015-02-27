@@ -1,0 +1,70 @@
+.academic-publications-widget a {
+  color: rgb(12, 94, 148);
+}
+
+.academic-publications-widget ol {
+  list-style-type: none;
+}
+
+.academic-publications-widget li {
+  margin-bottom: 17px;
+}
+
+.academic-publications-widget .title {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.15em;
+  line-height: 1.15em;
+  margin-bottom: 3px;
+  color: #333;
+  padding: 0;  
+}
+
+.academic-publications-widget a.title {
+  display: block;
+  color: rgb(12, 94, 148);
+}
+
+.academic-publications-widget .authors {
+  clear: both;
+  display: block;
+  color: #444;
+  font-size: 1em;
+  line-height: 1em;
+  margin-bottom: 4px;
+}
+
+.academic-publications-widget .conference-details {
+  clear: both;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.academic-publications-widget .commentary {
+  clear: both;
+  display: block;
+}
+
+.academic-publications-widget .award-comment {
+  line-height: 1.2em;
+  font-style: italic;
+  color: rgb(148, 12, 94);
+}
+
+.academic-publications-widget .conference {
+  text-decoration: none;
+  float: left;
+}
+
+.academic-publications-widget .year {
+  margin-left: 0.3em;
+}
+
+.academic-publications-widget .links {
+  display: block;
+}
+
+.academic-publications-widget .links a {
+  text-decoration: none;
+  margin-right: 10px;
+}
